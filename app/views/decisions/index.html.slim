@@ -1,0 +1,21 @@
+.ui.grid
+  .sixteen.wide.column
+    h1 Make a Decision
+
+  .six.wide.column
+    h3 I haven't signed up yet.
+
+    p
+      | Really? How terrible are you? Mike Doel does tough mudder for fun on a sunday and is chipper for work on monday. What's you're excuse?
+    p= link_to "Sign Up", new_user_registration_path, class: "ui button"
+
+  .six.wide.column
+    h3 I need to sign in
+
+    p
+      | For real? You don't have alfred setup with 1password like Doel does? Have you learned NOTHING?
+      p= link_to "Sign In", new_user_session_path, class: "ui button"
+
+
+  .sixteen.wide.column
+    i all Grammar errors are intended to make Monica choose an option and accept it.
